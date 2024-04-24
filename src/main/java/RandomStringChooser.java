@@ -12,7 +12,7 @@ public class RandomStringChooser
   }
 
   public String getNext() {
-    if(words.size() = 0) {
+    if(words.size() == 0) {
       return "NONE";
     }
     int i = (int)(Math.random()*words.size());
